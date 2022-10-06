@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .item1 { grid-area: header; }
+        .item2 { grid-area: presentation; }
+        .item3 { grid-area: menu; }
+        .item4 { grid-area: video; }
+        .item5 { grid-area: menu2; }
+        .item6 { grid-area: menu3; }
+        
+        .grid-container {
+          display: grid;
+          grid-template-areas:
+            'header header header header header header'
+            'presentation presentation presentation video video video'
+            'menu menu menu2 menu2 menu3 menu3'
+            'menu menu menu2 menu2 menu3 menu3'
+            'menu menu menu2 menu2 menu3 menu3';
+          grid-gap: 5px;
+          background-color: whitesmoke;
+          padding: 5px;
+        }
+        
+        .grid-container > div {
+          background-color: rgb(174, 214, 241);
+          text-align: left;
+          padding: 20px 0;
+          font-size: 30px;          
+        }
+     </style>
+</head>
+<body>
+    <style>        
+        body{background-color: white;}        
+        section1{background-color: antiquewhite;}
+        article{background-color: whitesmoke;}
+    </style>    
+        <div class="grid-container">
+          <div class="item1">
+            <header>
+                <h1 style="color: rgb(26, 82, 118);"><i>Universidad Nacional Abierta y a Distancia</i></h1>
+                <h2 style="color: rgb(26, 82, 118);"><i>Escuela de Ciencias Básicas, Tecnología e Ingeniería</i></h2>
+                <h2 style="color: rgb(26, 82, 118);"><i>Ingeniería de Sistemas - Diseño de Sitios Web - OVI:</i></h2>
+                <br>
+                <a href="javascript: history.go(-1)"><b style="font-size: 22px";>Volver</b></a>
+            </header>
+          </div>
+          <div class="item2";>
+            <section1 style="text-align: left; color: rgb(183, 149, 11)">
+                <p><h3>Bienvenidos al OVI referente al apoyo de aprendizaje sobre Diseño de Sitios Web, su contextualización, conceptualización y adquisición de conocimiento, en base a las nuevas tendencias en la programación con Lenguaje HTML5, y que describiremos a continuación</h3>
+                </p>
+            </section1>
+          </div>
+          <div class="item3">
+            <nav><h3 style="color: rgb(110, 44, 0);">Temas</h3>
+                <ul style="font-size: 19px;">
+                    <li>Fundamentos de HTML, Interacción Humano Ordenador</li>
+                    <li>Etiquetas Básicas de HTML, atributos y valores</li>
+                    <li>Etiquetas Semánticas, CSS Grid</li>
+                    <li>Flex Box, Listas y Enlaces de HTML</li>
+                    <li>Fundamentos de CSS, Framework CSS</li>
+                </ul>
+            </nav>
+          </div>
+          <div class="item4">
+            <iframe width="730" height="360" src="https://www.youtube.com/embed/5pcz7lqbzg4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>  
+          <div class="item5">
+            <nav><h3 style="color: rgb(110, 44, 0);">Recursos Digitales</h3>
+                <ul style="font-size: 22px;">
+                    <li><img src="dedito.png" width="32" height="32">Recurso Digital 1</li>
+                    <li><img src="dedito.png" width="32" height="32">Recurso Digital 2</li>
+                    <li><img src="dedito.png" width="32" height="32">Recurso Digital 3</li>
+                    <li><img src="dedito.png" width="32" height="32">Recurso Digital 4</li>
+                    <li><img src="dedito.png" width="32" height="32">Recurso Digital 5</li>
+                </ul>
+            </nav>
+          </div>
+          <div class="item6">
+            <nav><h3 h3 style="color: rgb(110, 44, 0);">Aprendizaje</h3>
+                <ul style="font-size: 22px;">
+                    <li><img src="puñito.png" width="32" height="32">Actividad 1</li>
+                    <li><img src="puñito.png" width="32" height="32">Actividad 2</li>
+                    <li><img src="puñito.png" width="32" height="32">Actividad 3</li>
+                    <li><img src="puñito.png" width="32" height="32">Actividad 4</li>
+                    <li><img src="puñito.png" width="32" height="32">Actividad 5</li>
+                </ul>
+            </nav>
+          </div>
+        </div>
+        <footer style="text-align: right"><i><b>UNAD - ECBTI</b>, Curso Diseño de Sitios Web, septiembre 13 de 2022. All Rights Reserved</i></footer>
+        <a href="javascript: history.go(-1)"><b>Volver</b></a>
+
+</body>
+</html>

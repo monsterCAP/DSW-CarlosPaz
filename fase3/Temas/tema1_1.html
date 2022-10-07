@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .item1 { grid-area: header1; }
+        .item2 { grid-area: txt1_1; }
+        .item3 { grid-area: video1; }
+        .item4 { grid-area: txt1_2; }
+        .item5 { grid-area: img1; }
+        .item6 { grid-area: img2; }
+        
+        .grid-container {
+            display: grid;
+            grid-template-areas: 
+            
+            'header1 header1 header1 header1 header1 header1'
+            'txt1_1 txt1_1 txt1_1 txt1_1 txt1_1 video1'
+            'img1 img1 txt1_2 txt1_2 img2 img2';
+            grid-gap: 5px;
+            background-color: rgb(236, 240, 243);
+            padding: 8px;
+        }
+
+        .grid-container > div {
+            background-color: brown;            
+            padding: 20px 0;
+            font-size: 20px;
+        }        
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="item1">
+          <header1>
+              </i></h2>
+              <h2 style="color: rgb(236, 240, 243);"><i>Ingeniería de Sistemas - Diseño de Sitios Web - OVI: Temas</i></h2>              
+          </header1>
+        </div>    
+        <div class="item2" style="background-color:rgb(236, 240, 243)">
+            <h3>Tema 1-1: Fundamentos de HTML:</h3>
+            <footer style="font-size:small"><b>Herrera Flores, Javier. Qué es HTML. Tomado de: <a href="https://codigofacilito.com/articulos/que-es-html">https://codigofacilito.com/articulos/que-es-html<i></i></a></b></footer>
+            <br>
+            <p>Actualmente la mayoría de las personas han visto cientos de páginas web pero muchos se preguntarán ¿Qué es HTML? ¿Para qué me sirve? ¿Cómo funciona? ¿Es difícil escribir en HTML? ¿Dónde puedo escribir HTML? Y otras preguntas como estas serán respondidas a continuación.</p>            
+            <p>Si buscas en GOOGLE o en cualquier otro buscador la definición de HTML, probablemente encontrarás está:</p>
+            <br>
+            <p style="text-align:center";><i><b>“HTML es un lenguaje de marcado que se utiliza para el desarrollo de páginas de Internet. Se trata de la siglas que corresponden a HyperText Markup Language, es decir, Lenguaje de Marcas de Hipertexto”.</i></b></p>
+        </div>
+        <div class="item3" style="text-align: center; background-color: rgb(224, 150, 150);">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5pcz7lqbzg4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="item4" style="background-color:rgb(243, 242, 236)">
+            <p>No obstante, este tipo de definiciones no nos dice mucho porque la definición es técnica. Para algunas personas al leer esto, piensan que HTML incluye el diseño gráfico de las páginas web, sin embargo, eso no es cierto ya que HTML sólo sirve para indicar como va ordenado el contenido de una página web. Esto lo hace por medio de las marcas de hipertexto las cuales son etiquetas conocidas en inglés como tags.</p>            
+        </div>
+        <div class="item5" style="background-color: white">
+            <img src="HTML.png">
+        </div>
+        <div class="item6" style="background-color: white">
+            <img src="html5css3.png">
+        </div>      
+    </div>
+    <footer>
+        <p style="text-align:left"><a href="tema1_2.html"><b>Siguiente</b></a></p>            
+            <nav>
+                <ul style="font-size: 22px; text-align: center;">
+                    <img src="dedito.png" width="32" height="32"><a href="/fase3/Recurso_Multimedia_1/multimedia1_1.html">Recurso Digital 1</a>
+                </ul>
+            </nav>            
+            <p style="text-align: right"><a href="/fase3/index.html"><b style="font-size: 20px";>Volver al Inicio</b></a></p>
+        <p style="text-align: left;"><i><b>UNAD - ECBTI</b>, Curso Diseño de Sitios Web, 2022. All Rights Reserved</i></p>        
+    </footer>
+</body>
+</html>

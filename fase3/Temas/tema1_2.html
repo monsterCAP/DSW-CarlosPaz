@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .item1 { grid-area: header1; }
+        .item2 { grid-area: header2; }
+        .item3 { grid-area: txt2_1; }
+        .item4 { grid-area: video2_1; }
+        .item5 { grid-area: txt2_2; }
+        .item6 { grid-area: img2_2; }
+        .item7 { grid-area: txt2_3; }
+        .item8 { grid-area: txt2_4; }
+        .item9 { grid-area: img2_3; }        
+        
+        .grid-container {
+            display: grid;
+            grid-template-areas: 
+            
+            'header1 header1 header1 header1 header1 header1'            
+            'header2 header2 header2 txt2_1 txt2_1 txt2_1'
+            'video2_1 video2_1 video2_1 txt2_1 txt2_1 txt2_1'
+            'txt2_2 txt2_2 img2_2 img2_2 img2_2 img2_2'
+            'txt2_3 txt2_3 img2_3 txt2_4 txt2_4 txt2_4';
+            grid-gap: 5px;
+            background-color: rgb(236, 240, 243);
+            padding: 8px;
+        }
+
+        .grid-container > div {
+            background-color: brown;            
+            padding: 20px 0;
+            font-size: 20px;
+        }        
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="item1">
+          <header1>
+              </i></h2>
+              <h2 style="color: rgb(236, 240, 243);"><i>Ingeniería de Sistemas - Diseño de Sitios Web - OVI: Temas</i></h2>              
+          </header1>
+        </div>    
+        
+        <div class="item2" style="background-color:rgb(228, 181, 52)">
+            <h3>Tema 1-2: Interacción Humano-Computador:</h3>
+            <footer style="font-size:small"><b>Brenton. ¿Qué es la Interacción Humano-Computadora.            
+            <p>Tomado de: <a href="https://blog.opinno.io/es/blog/que-es-la-interaccion-humano-computadora"><i>https://blog.opinno.io/es/blog/que-es-la-interaccion-humano-computadora</i></a></b></p></footer>
+        </div>
+        <div class="item3" style="background-color:rgb(216, 149, 229)">
+            <h4><i>Los sistemas bien diseñados marcan la diferencia.</i></h4>
+            <p>La disciplina que estudia cómo las personas interactúan con las computadoras y hasta qué punto las computadoras se desarrollan para interactuar con las personas se llama Interacción Humano-Computadora. HCI consta de tres componentes: los usuarios, los ordenadores y la interacción entre ellos.
+            <br>
+            <br>
+            La Interacción Humano-Computadora se convirtió oficialmente en una disciplina con el advenimiento de la computadora personal. Con el primer Macintosh, IBM PC 5150 y Commodore 64 utilizados en la oficina, la gente empezó a darse cuenta de cómo esta transición afectará no sólo a su trabajo sino a sus vidas en general. Los PCs fueron lanzados con muchas nuevas características como procesadores de texto, facilidades de juego y ayudas de contabilidad. Con el tiempo, su nivel de sofisticación aumentó hasta el punto en que el objetivo era hacer que la interacción hombre-computadora se asemejara a la interacción entre humanos, de la forma más natural y sin fisuras posible.
+            <br>
+            <br>
+            HCI es un dominio interdisciplinario que abarca disciplinas como la informática, la ingeniería de los factores humanos, la inteligencia artificial, la lingüística, la filosofía, la antropología y la ciencia cognitiva. En los últimos cinco años, HCI ha pasado rápidamente de estudiar la interacción con los ordenadores de sobremesa a centrarse casi exclusivamente en los dispositivos móviles.
+            </p>
+        </div>
+        <div class="item4" style="text-align:center">
+            <iframe width="640" height="420" src="https://www.youtube.com/embed/6WqcB0UQHSQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="item5" style="background-color: rgb(236, 240, 243)">
+            <h4>¿Por qué es importante el estudio de la Interacción Humano-Computadora?</h4>            
+            <p>En la Interacción Humano-Computadora, las palabras clave son usabilidad, seguridad y funcionalidad. Además, para producir sistemas con estas características, la investigación de HCI debe ser consciente de las siguientes cosas:
+            <br>
+            <br>
+            1. Investigar y comprender los factores organizacionales, sociales y psicológicos que determinan cómo las personas utilizan la tecnología debe ser el punto de partida de cualquier proyecto de HCI. Es un proceso de aprendizaje continuo que se desarrolla a lo largo de la duración del proyecto;
+            </p>
+        </div>
+        <div class="item6" style="text-align:center; background-color:rgb(137, 224, 191);">
+            <img src="IHC2.jpeg">
+        </div>
+        <div class="item7" style="background-color:bisque;">
+            <p>2. La segunda parte más importante de la investigación de HCI es el enfoque centrado en las personas. John M. Carroll, autor y fundador del campo de la interacción hombre-computadora, escribe que HCI se está centrando cada vez más en las personas. Se ha expandido para crear soluciones para proyectos como la accesibilidad para las personas mayores, los discapacitados cognitivos y físicos. En esta fase tan evolucionada, los diseñadores de interacción ya no están en el negocio del diseño, sino en el negocio de las personas. En última instancia, el Diseño de Interacción Humana consiste en crear sistemas y marcos que mejoren la vida de las personas.</p>
+        </div>
+        <div class="item8" style="background-color:bisque;">
+            <p>3. Partiendo de las necesidades del cliente, desarrollamos herramientas y técnicas para construir sistemas adecuados que satisfagan dichas necesidades.
+            <br>
+            <br>
+            4. Cree una interacción del sistema de usuario que sea efectiva, eficiente y segura.
+            <br>
+            <br>    
+            Comienza por entender las necesidades de los usuarios, para construir el sistema de acuerdo a esas necesidades. No al revés, creando un sistema que tiene que cumplir con los requisitos del usuario que usted descubrió más tarde en el proceso,</p>
+        </div>
+        <div class="item9" style="text-align:center; background-color: aliceblue;">
+            <img src="IHC3.gif">
+        </div>
+    </div>
+    <footer>
+        <p style="text-align:left"><a href="tema1_1.html"><b>Anterior</b></a></p>            
+            <nav>
+                <ul style="font-size: 22px; text-align: center;">
+                    <img src="dedito.png" width="32" height="32"><a href="/fase3/Recurso_Multimedia_1/multimedia1_1.html">Recurso Digital 1</a>
+                </ul>
+            </nav>            
+            <p style="text-align: right"><a href="/fase3/index.html"><b style="font-size: 20px";>Volver al Inicio</b></a></p>
+        <p style="text-align: left;"><i><b>UNAD - ECBTI</b>, Curso Diseño de Sitios Web, 2022. All Rights Reserved</i></p>        
+    </footer>
+</body>
+</html>

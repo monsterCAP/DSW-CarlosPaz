@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .item1 { grid-area: header1; }
+    .item2 { grid-area: data; }
+    .item3 { grid-area: picture; }
+
+.grid-container {
+    display: grid;
+grid-template-areas:
+
+'header1 header1'
+'data picture';
+
+grid-gap: 5px;
+background-color: rgb(236, 240, 243);
+padding: 8px;
+}
+
+.grid-container > div {
+    background-color: rgb(201, 179, 57);            
+    padding: 20px 0;
+    font-size: 20px;
+}
+</style>
+<body>
+    <div class="grid-container">
+        <div class="item1">
+            <header1>
+                </i></h2>
+                <h2 style="color: rgb(236, 240, 243);"><i>Ingeniería de Sistemas - Diseño de Sitios Web - OVI: Acerca del Programador</i></h2>              
+            </header1>
+          </div>
+          <div claass="item2" style="background-color:beige">
+            <br>
+            <br>
+            <br>
+            <br>
+            <p><b>Nombre Programador Web: Carlos Alberto Paz Moreno</b></p>
+            <p><b>Código: </b>13.069.799</p>
+            <p><b>Escuela y Programa: </b>ECBTI - Ingeniería de Sistemas</p>
+            <p><b>E-Mail: </b>capazm@unadvirtual.edu.co</p>
+            <p><b>Skype: </b>carlosalbertopazmoreno@hotmail.com</p>
+            <p><b>Teléfono de Contacto: </b>3226610839</p>
+
+          </div>
+          <div class="item3" style="text-align:center; background-color: darkkhaki;">
+            <img src="foto.jpeg">
+          </div>
+    </div>
+    <footer>        
+        <p style="text-align: right;"><i><b>UNAD - ECBTI</b>, Curso Diseño de Sitios Web, 2022. All Rights Reserved</i></p>
+        <p style="text-align: left"><a href="/fase3/index.html"><b style="font-size: 20px";>Volver al Inicio</b></a></p>
+    </footer>
+</body>
+</html>
